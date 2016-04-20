@@ -1,5 +1,8 @@
 package com.github.jban.reverse;
 
 public class Properties {
-    public String label;
+    public String city;
+    public String citycode;
+    public String name;
+    public String postcode;
 }

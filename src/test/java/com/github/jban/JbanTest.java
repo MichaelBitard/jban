@@ -1,5 +1,6 @@
 package com.github.jban;
 
+import com.github.jban.api.reverse.ReverseResponse;
 import com.google.common.base.Charsets;
 import com.google.common.io.Resources;
 import net.codestory.http.Configuration;
@@ -20,16 +21,16 @@ public class JbanTest {
             @Override
             public void configure(Routes routes) {
                 try {
-                    routes.get("/reverse/", Resources.toString(this.getClass().getResource("reverse_ok.json"), Charsets.UTF_8));
+                    routes.get("/reverse", Resources.toString(this.getClass().getResource("reverse_ok_street.json"), Charsets.UTF_8));
                 } catch (IOException e) {
                     throw new RuntimeException();
                 }
             }
         }).startOnRandomPort().port();
 
-        Jban tested = new Jban("http://localhost:" + port);
-        String reverse = tested.reverse(48.357, 2.37);
+        Jban tested = new Jban("localhost",port);
+        ReverseResponse reverse = tested.reverse(48.357, 2.37);
 
-        assertThat(reverse).isEqualTo("Rue des Ouches 91720 Prunay-sur-Essonne");
+        assertThat(reverse.city).isEqualTo("Prunay-sur-Essonne");
     }
 }
