@@ -1,6 +1,8 @@
 package com.github.jban;
 
 import com.github.jban.api.reverse.ReverseResponse;
+import com.github.jban.api.reverse.ZipcodeResponse;
+import com.github.jban.reverse.Feature;
 import com.github.jban.reverse.Properties;
 import com.github.jban.reverse.Response;
 import com.github.jban.reverse.ReverseType;
@@ -10,6 +12,8 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public final class Jban {
     private final String address;
@@ -59,4 +63,33 @@ public final class Jban {
         Properties properties = reverseResponse.features.get(0).properties;
         return new ReverseResponse(properties.city, properties.citycode, properties.name, properties.postcode);
     }
+
+
+    public ZipcodeResponse findZipCodes(String cityName) throws IOException {
+        HttpUrl.Builder urlBuilder = new HttpUrl.Builder()
+                .scheme("http")
+                .host(address)
+                .port(port)
+                .addPathSegment("search")
+                .addQueryParameter("q", cityName)
+                .addQueryParameter("type", "city")
+                .addQueryParameter("limit", "100");
+
+        Request request = new Request.Builder()
+                .url(urlBuilder.build())
+                .build();
+
+        okhttp3.Response response = client.newCall(request).execute();
+
+
+        Response reverseResponse = gson.fromJson(response.body().charStream(), Response.class);
+
+        List<ZipcodeResponse.ZipcodeResponseItem> zipcodeResponseItemList = new ArrayList<>();
+        for (Feature feature : reverseResponse.features) {
+            zipcodeResponseItemList.add(new ZipcodeResponse.ZipcodeResponseItem(feature.properties.city, feature.properties.citycode, feature.properties.postcode));
+        }
+        return new ZipcodeResponse(zipcodeResponseItemList);
+    }
+
+
 }

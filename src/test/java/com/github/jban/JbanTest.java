@@ -1,6 +1,7 @@
 package com.github.jban;
 
 import com.github.jban.api.reverse.ReverseResponse;
+import com.github.jban.api.reverse.ZipcodeResponse;
 import com.google.common.base.Charsets;
 import com.google.common.io.Resources;
 import net.codestory.http.Configuration;
@@ -35,5 +36,16 @@ public class JbanTest {
         assertThat(reverse.citycode).isEqualTo("91507");
         assertThat(reverse.name).isEqualTo("reverse ok street");
         assertThat(reverse.postcode).isEqualTo("91720");
+    }
+
+    @Test
+    public void shouldGetTheZipCodes() throws Exception {
+        Jban tested = new Jban();
+        ZipcodeResponse actual = tested.findZipCodes("tou");
+
+        assertThat(actual.items).hasSize(20);
+        assertThat(actual.items.get(0).city).isEqualTo("Toulouse");
+        assertThat(actual.items.get(0).citycode).isEqualTo("31555");
+        assertThat(actual.items.get(0).postcode).isEqualTo("31200");
     }
 }
