@@ -32,5 +32,8 @@ public class JbanTest {
         ReverseResponse reverse = tested.reverse(48.357, 2.37);
 
         assertThat(reverse.city).isEqualTo("Prunay-sur-Essonne");
+        assertThat(reverse.citycode).isEqualTo("91507");
+        assertThat(reverse.name).isEqualTo("reverse ok street");
+        assertThat(reverse.postcode).isEqualTo("91720");
     }
 }
