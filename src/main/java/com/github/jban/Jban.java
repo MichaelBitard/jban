@@ -9,12 +9,16 @@ import okhttp3.Response;
 import java.io.IOException;
 
 public final class Jban {
-    private static final String address = "http://api-adresse.data.gouv.fr";
+    private final String address;
 
     public Jban() {
-
+        this("http://api-adresse.data.gouv.fr");
     }
 
+    //    @VisibleForTesting
+    Jban(String address) {
+        this.address = address;
+    }
 
 
     public String reverse(double latitude, double longitude) throws IOException {
