@@ -1,0 +1,473 @@
+{
+  "limit": 100,
+  "filters": {
+    "type": "city"
+  },
+  "attribution": "BAN",
+  "version": "draft",
+  "licence": "ODbL 1.0",
+  "query": "tou",
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.441019,
+          43.604268
+        ]
+      },
+      "properties": {
+        "adm_weight": "5",
+        "citycode": "31555",
+        "name": "Toulouse",
+        "city": "Toulouse",
+        "postcode": "31200",
+        "context": "31, Haute-Garonne, Midi-Pyr\u00e9n\u00e9es",
+        "score": 0.8881363636363635,
+        "label": "Toulouse",
+        "id": "31555_31200",
+        "type": "city",
+        "population": "440.2"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.441019,
+          43.604268
+        ]
+      },
+      "properties": {
+        "adm_weight": "5",
+        "citycode": "31555",
+        "name": "Toulouse",
+        "city": "Toulouse",
+        "postcode": "31100",
+        "context": "31, Haute-Garonne, Midi-Pyr\u00e9n\u00e9es",
+        "score": 0.8881363636363635,
+        "label": "Toulouse",
+        "id": "31555_31100",
+        "type": "city",
+        "population": "440.2"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.441019,
+          43.604268
+        ]
+      },
+      "properties": {
+        "adm_weight": "5",
+        "citycode": "31555",
+        "name": "Toulouse",
+        "city": "Toulouse",
+        "postcode": "31400",
+        "context": "31, Haute-Garonne, Midi-Pyr\u00e9n\u00e9es",
+        "score": 0.8881363636363635,
+        "label": "Toulouse",
+        "id": "31555_31400",
+        "type": "city",
+        "population": "440.2"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.441019,
+          43.604268
+        ]
+      },
+      "properties": {
+        "adm_weight": "5",
+        "citycode": "31555",
+        "name": "Toulouse",
+        "city": "Toulouse",
+        "postcode": "31300",
+        "context": "31, Haute-Garonne, Midi-Pyr\u00e9n\u00e9es",
+        "score": 0.8881363636363635,
+        "label": "Toulouse",
+        "id": "31555_31300",
+        "type": "city",
+        "population": "440.2"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.441019,
+          43.604268
+        ]
+      },
+      "properties": {
+        "adm_weight": "5",
+        "citycode": "31555",
+        "name": "Toulouse",
+        "city": "Toulouse",
+        "postcode": "31500",
+        "context": "31, Haute-Garonne, Midi-Pyr\u00e9n\u00e9es",
+        "score": 0.8881363636363635,
+        "label": "Toulouse",
+        "id": "31555_31500",
+        "type": "city",
+        "population": "440.2"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.441019,
+          43.604268
+        ]
+      },
+      "properties": {
+        "adm_weight": "5",
+        "citycode": "31555",
+        "name": "Toulouse",
+        "city": "Toulouse",
+        "postcode": "31000",
+        "context": "31, Haute-Garonne, Midi-Pyr\u00e9n\u00e9es",
+        "score": 0.8881363636363635,
+        "label": "Toulouse",
+        "id": "31555",
+        "type": "city",
+        "population": "440.2"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.930466,
+          43.124011
+        ]
+      },
+      "properties": {
+        "adm_weight": "4",
+        "citycode": "83137",
+        "name": "Toulon",
+        "city": "Toulon",
+        "postcode": "83200",
+        "context": "83, Var, Provence-Alpes-C\u00f4te d'Azur",
+        "score": 0.8796181818181817,
+        "label": "Toulon",
+        "id": "83137_83200",
+        "type": "city",
+        "population": "165.5"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.930466,
+          43.124011
+        ]
+      },
+      "properties": {
+        "adm_weight": "4",
+        "citycode": "83137",
+        "name": "Toulon",
+        "city": "Toulon",
+        "postcode": "83000",
+        "context": "83, Var, Provence-Alpes-C\u00f4te d'Azur",
+        "score": 0.8796181818181817,
+        "label": "Toulon",
+        "id": "83137",
+        "type": "city",
+        "population": "165.5"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.930466,
+          43.124011
+        ]
+      },
+      "properties": {
+        "adm_weight": "4",
+        "citycode": "83137",
+        "name": "Toulon",
+        "city": "Toulon",
+        "postcode": "83100",
+        "context": "83, Var, Provence-Alpes-C\u00f4te d'Azur",
+        "score": 0.8796181818181817,
+        "label": "Toulon",
+        "id": "83137_83100",
+        "type": "city",
+        "population": "165.5"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.687758,
+          47.391759
+        ]
+      },
+      "properties": {
+        "adm_weight": "4",
+        "citycode": "37261",
+        "name": "Tours",
+        "city": "Tours",
+        "postcode": "37000",
+        "context": "37, Indre-et-Loire, Centre Val-de-Loire",
+        "score": 0.8793727272727272,
+        "label": "Tours",
+        "id": "37261",
+        "type": "city",
+        "population": "135.2"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.687758,
+          47.391759
+        ]
+      },
+      "properties": {
+        "adm_weight": "4",
+        "citycode": "37261",
+        "name": "Tours",
+        "city": "Tours",
+        "postcode": "37200",
+        "context": "37, Indre-et-Loire, Centre Val-de-Loire",
+        "score": 0.8793727272727272,
+        "label": "Tours",
+        "id": "37261_37200",
+        "type": "city",
+        "population": "135.2"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.687758,
+          47.391759
+        ]
+      },
+      "properties": {
+        "adm_weight": "4",
+        "citycode": "37261",
+        "name": "Tours",
+        "city": "Tours",
+        "postcode": "37100",
+        "context": "37, Indre-et-Loire, Centre Val-de-Loire",
+        "score": 0.8793727272727272,
+        "label": "Tours",
+        "id": "37261_37100",
+        "type": "city",
+        "population": "135.2"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.890771,
+          48.674599
+        ]
+      },
+      "properties": {
+        "adm_weight": "3",
+        "citycode": "54528",
+        "name": "Toul",
+        "city": "Toul",
+        "postcode": "54200",
+        "context": "54, Meurthe-et-Moselle, Lorraine",
+        "score": 0.8666090909090909,
+        "label": "Toul",
+        "id": "54528",
+        "type": "city",
+        "population": "15.9"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.832309,
+          45.066699
+        ]
+      },
+      "properties": {
+        "adm_weight": "3",
+        "citycode": "07324",
+        "name": "Tournon-sur-Rh\u00f4ne",
+        "city": "Tournon-sur-Rh\u00f4ne",
+        "postcode": "07300",
+        "context": "07, Ard\u00e8che, Rh\u00f4ne-Alpes",
+        "score": 0.8659818181818181,
+        "label": "Tournon-sur-Rh\u00f4ne",
+        "id": "07324",
+        "type": "city",
+        "population": "10.7"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.159731,
+          50.722109
+        ]
+      },
+      "properties": {
+        "adm_weight": "2",
+        "citycode": "59599",
+        "name": "Tourcoing",
+        "city": "Tourcoing",
+        "postcode": "59200",
+        "context": "59, Nord, Nord-Pas-de-Calais",
+        "score": 0.8567636363636364,
+        "label": "Tourcoing",
+        "id": "59599",
+        "type": "city",
+        "population": "92.4"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.342531,
+          43.583911
+        ]
+      },
+      "properties": {
+        "adm_weight": "2",
+        "citycode": "31557",
+        "name": "Tournefeuille",
+        "city": "Tournefeuille",
+        "postcode": "31170",
+        "context": "31, Haute-Garonne, Midi-Pyr\u00e9n\u00e9es",
+        "score": 0.8539363636363636,
+        "label": "Tournefeuille",
+        "id": "31557",
+        "type": "city",
+        "population": "25.3"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.579855,
+          49.64018
+        ]
+      },
+      "properties": {
+        "adm_weight": "2",
+        "citycode": "50602",
+        "name": "Tourlaville",
+        "city": "Tourlaville",
+        "postcode": "50110",
+        "context": "50, Manche, Basse-Normandie",
+        "score": 0.8529272727272728,
+        "label": "Tourlaville",
+        "id": "50602",
+        "type": "city",
+        "population": "16.1"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.661737,
+          47.349811
+        ]
+      },
+      "properties": {
+        "adm_weight": "2",
+        "citycode": "37122",
+        "name": "Jou\u00e9-l\u00e8s-Tours",
+        "city": "Jou\u00e9-l\u00e8s-Tours",
+        "postcode": "37300",
+        "context": "37, Indre-et-Loire, Centre Val-de-Loire",
+        "score": 0.6728999999999998,
+        "label": "Jou\u00e9-l\u00e8s-Tours",
+        "id": "37122",
+        "type": "city",
+        "population": "36.0"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.712626,
+          47.337315
+        ]
+      },
+      "properties": {
+        "adm_weight": "2",
+        "citycode": "37050",
+        "name": "Chambray-l\u00e8s-Tours",
+        "city": "Chambray-l\u00e8s-Tours",
+        "postcode": "37170",
+        "context": "37, Indre-et-Loire, Centre Val-de-Loire",
+        "score": 0.6702181818181818,
+        "label": "Chambray-l\u00e8s-Tours",
+        "id": "37050",
+        "type": "city",
+        "population": "10.8"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.296042,
+          43.565192
+        ]
+      },
+      "properties": {
+        "adm_weight": "1",
+        "citycode": "31424",
+        "name": "Plaisance-du-Touch",
+        "city": "Plaisance-du-Touch",
+        "postcode": "31830",
+        "context": "31, Haute-Garonne, Midi-Pyr\u00e9n\u00e9es",
+        "score": 0.6499545454545453,
+        "label": "Plaisance-du-Touch",
+        "id": "31424",
+        "type": "city",
+        "population": "16.1"
+      },
+      "type": "Feature"
+    }
+  ]
+}

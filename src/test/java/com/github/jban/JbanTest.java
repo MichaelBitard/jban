@@ -40,7 +40,17 @@ public class JbanTest {
 
     @Test
     public void shouldGetTheZipCodes() throws Exception {
-        Jban tested = new Jban();
+        int port = new WebServer().configure(new Configuration() {
+            @Override
+            public void configure(Routes routes) {
+                try {
+                    routes.get("/search", Resources.toString(this.getClass().getResource("find_from_city_name.json"), Charsets.UTF_8));
+                } catch (IOException e) {
+                    throw new RuntimeException();
+                }
+            }
+        }).startOnRandomPort().port();
+        Jban tested = new Jban("localhost", port);
         ZipcodeResponse actual = tested.findZipCodes("tou");
 
         assertThat(actual.items).hasSize(20);
